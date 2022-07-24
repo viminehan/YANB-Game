@@ -21,6 +21,9 @@ https://myphotoshopbrushes.com/patterns/id/3975/
 html { 
 height: 100%;
 font-family: 'Roboto', sans-serif;
+background-image: url('../assets/wallpaper.png');
+background-repeat: repeat;
+background-size: 300px;
 }
 
 body {
@@ -47,7 +50,8 @@ height: 100%;
 }
 
 .instructions ol { 
-  width: 80%;
+  width: 89%;
+  margin-right: 7%;
 }
 
 #resultsDiv { 
