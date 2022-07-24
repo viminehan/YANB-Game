@@ -98,3 +98,30 @@ height: 100%;
 #VerbOutput { 
   left: 60.5%;
 }
+
+.greenLight { 
+  position: absolute;
+  float: left;
+  left: 67.1%;
+  border: solid #18E641 20px;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+}
+
+#lightOne { 
+  top: 24.45%;
+  display: none;
+}
+
+#lightTwo {
+  top: 31%;
+  left: 67%;
+  display: none;
+}
+
+#lightThree {
+  top: 37.65%;
+  left: 67%;
+  display: none;
+}

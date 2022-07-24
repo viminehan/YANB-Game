@@ -5,6 +5,7 @@ let frameDelay = 0;
 
 function roll() { 
   resetResults();
+  resetLights();
   runSlots();
 
   // Once slot animation complete
@@ -12,11 +13,10 @@ function roll() {
     document.getElementById('rollResult').innerText = getRollResult();
     document.getElementById('TraitOutput').innerText = getRandomTrait();
     document.getElementById('ItemOutput').innerText = getRandomItem();
-    document.getElementById('VerbOutput').innerText = getRandomVerb();
+    getLightResult();
     }, 1900);
    
     updateRollCount();
-  // runLights();
 }
 
 function getRandomTrait() {
@@ -97,4 +97,31 @@ function resetResults() {
   document.getElementById('TraitOutput').innerText = "";
   document.getElementById('ItemOutput').innerText = "";
   document.getElementById('VerbOutput').innerText = "";
+}
+
+function resetLights() {
+  document.getElementById('lightOne').style.display = "none";
+  document.getElementById('lightTwo').style.display = "none";
+  document.getElementById('lightThree').style.display = "none";
+}
+
+function getLightResult() {
+  let randomNumber = Math.random();
+  
+  if (randomNumber < 0.5) { 
+    console.log('Intensity One');
+    document.getElementById('lightOne').style.display = "block";
+  } else if (randomNumber >= 0.5 && randomNumber < 0.8) { 
+    console.log('Intensity Two');
+    document.getElementById('lightOne').style.display = "block";
+    document.getElementById('lightTwo').style.display = "block";
+  } else if (randomNumber >= 0.8 && randomNumber < 1) { 
+    console.log('Intensity Three');
+    document.getElementById('lightOne').style.display = "block";
+    document.getElementById('lightTwo').style.display = "block";
+    document.getElementById('lightThree').style.display = "block";
+  } else {
+    console.log('Light Error')
+  }
+
 }
