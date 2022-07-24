@@ -20,7 +20,7 @@ function roll() {
 }
 
 function getRandomTrait() {
-  let randomTraitArray = ["Happy", "Loving", "Relieved", "Content", "Amused", "Joyful", "Prideful", "Excited", "Peaceful", "Lonely", "Heartbroken", "Disappointed", "Hopeless", "Grieving", "Depraved", "Wicked", "Depressed", "Lost", "Troubled", "Resigned", "Miserable", "Worried", "Doubtful", "Nervous", "Anxious", "Terrified", "Panicked", "Horrified", "Desperate", "Confused", "Stressed", "Annoyed", "Frustrated", "Contratian", "Bitter", "Infuriated", "Irritated", "Mad", "Vengeful", "Insulted", "Vindicated", "Vicious", "Disapproving", "Loathing", "Offended", "Uncomfortable", "Disturbed", "Withdrawn", "Delighted", "Astonished", "Active", "Adventurous", "Dishonest", "Disrespectful", "Dull", "Logical", "Energetic", "Loyal", "Brilliant", "Generous", "Mischievous", "Selfish", "Charming", "Clumsy", "Humble", "Cooperative", "Hyper", "Patient", "Cautious"];
+  let randomTraitArray = ["Happy", "Loving", "Relieved", "Content", "Amused", "Joyful", "Prideful", "Excited", "Peaceful", "Lonely", "Hopeless", "Grieving", "Depraved", "Wicked", "Depressed", "Lost", "Troubled", "Resigned", "Miserable", "Worried", "Doubtful", "Nervous", "Anxious", "Terrified", "Panicked", "Horrified", "Desperate", "Confused", "Stressed", "Annoyed", "Frustrated", "Contratian", "Bitter", "Infuriated",  "Mad", "Vengeful", "Insulted",  "Vicious",  "Loathing", "Offended",  "Disturbed", "Withdrawn", "Delighted", "Astonished", "Active",  "Dishonest",  "Dull", "Logical", "Energetic", "Loyal", "Brilliant", "Generous",  "Selfish", "Charming", "Clumsy", "Humble",  "Hyper", "Patient", "Cautious"];
   let randomTrait = randomTraitArray[Math.floor(Math.random() * randomTraitArray.length)];
   return randomTrait;
 }
@@ -32,7 +32,7 @@ function getRandomItem() {
 }
 
 function getRandomVerb() {
-  let randomVerbArray = ["Acting", "Breaking", "Crying", "Drinking", "Eating", "Leaving", "Laughing", "Planning", "Running", "Shouting", "Sneezing", "Touching", "Writing", "Building", "Answering", "Coughing", "Dancing", "Eating", "Imitating", "Lying", "Playing", "Screaming", "Singing", "Solving", "Turning", "Whistling", "Approving", "Buying", "Creating", "Describing", "Editing", "Inventing", "Listening", "Reading", "Seeing", "Skipping", "Studying", "Walking", "Pulling", "Pushing", "Arranging", "Coaching", "Completing", "Drawing", "Entering", "Jumping", "Painting", "Replacing", "Shopping", "Sleeping", "Teaching", "Winning", "Losing", "Whining", "Deciding", "Doubting", "Hating", "Enjoying", "Remembering", "Surprising", "Smelling", "Learning", "Hoping", "Forgetting", "Assisting", "Baking", "Aiming", "Apologizing", "Arguing", "Adapting", "Accusing", "Bending", "Betting"];
+  let randomVerbArray = ["Acting", "Breaking", "Crying", "Drinking", "Eating", "Leaving", "Laughing", "Planning", "Running", "Shouting", "Sneezing", "Touching", "Writing", "Building", "Answering", "Coughing", "Dancing", "Eating", "Imitating", "Lying", "Playing", "Screaming", "Singing", "Solving", "Turning", "Whistling", "Approving", "Buying", "Creating", "Describing", "Editing", "Inventing", "Listening", "Reading", "Seeing", "Skipping", "Studying", "Walking", "Pulling", "Pushing", "Arranging", "Coaching", "Completing", "Drawing", "Entering", "Jumping", "Painting", "Replacing", "Shopping", "Sleeping", "Teaching", "Winning", "Losing", "Whining", "Deciding", "Doubting", "Hating", "Enjoying",  "Smelling", "Learning", "Hoping", "Forgetting", "Assisting", "Baking", "Aiming", "Apologizing", "Arguing", "Adapting", "Accusing", "Bending", "Betting"];
   let randomVerb = randomVerbArray[Math.floor(Math.random() * randomVerbArray.length)];
   return randomVerb;
 }
@@ -81,7 +81,7 @@ function runSlots() {
   changeFrame('url("../YANB-Game/assets/X8.png")', 700);
   changeFrame('url("../YANB-Game/assets/X9.png")', 800);
   changeFrame('url("../YANB-Game/assets/X10.png")', 900);
-  changeFrame('url("../YANB-Game/assets/X11.png")', 100);
+  changeFrame('url("../YANB-Game/assets/X11.png")', 1000);
   changeFrame('url("../YANB-Game/assets/X12.png")', 1100); 
   changeFrame('url("../YANB-Game/assets/X7.png")', 1200);
   changeFrame('url("../YANB-Game/assets/X6.png")', 1300);
