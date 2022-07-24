@@ -72,25 +72,25 @@ function changeFrame(slotUrl, frameDelay) {
 }
 function runSlots() {
   slotsArea = document.querySelector('#slotsDiv');
-  changeFrame('url("/YANB-Game/assets/X1.png")', 0);
-  changeFrame('url("/YANB-Game/assets/X2.png")', 100);
-  changeFrame('url("/YANB-Game/assets/X3.png")', 200);
-  changeFrame('url("/YANB-Game/assets/X4.png")', 300); 
-  changeFrame('url("/YANB-Game/assets/X5.png")', 400);
-  changeFrame('url("/YANB-Game/assets/X6.png")', 500);
-  changeFrame('url("/YANB-Game/assets/X7.png")', 600);
-  changeFrame('url("/YANB-Game/assets/X8.png")', 700);
-  changeFrame('url("/YANB-Game/assets/X9.png")', 800);
-  changeFrame('url("/YANB-Game/assets/X10.png")', 900);
-  changeFrame('url("/YANB-Game/assets/X11.png")', 1000);
-  changeFrame('url("/YANB-Game/assets/X12.png")', 1100); 
-  changeFrame('url("/YANB-Game/assets/X7.png")', 1200);
-  changeFrame('url("/YANB-Game/assets/X6.png")', 1300);
-  changeFrame('url("/YANB-Game/assets/X5.png")', 1400);
-  changeFrame('url("/YANB-Game/assets/X4.png")', 1500);
-  changeFrame('url("/YANB-Game/assets/X3.png")', 1600);
-  changeFrame('url("/YANB-Game/assets/X2.png")', 1700);
-  changeFrame('url("/YANB-Game/assets/X1.png")', 1800);
+  changeFrame('url("../YANB-Game/assets/X1.png")', 0);
+  changeFrame('url("../YANB-Game/assets/X2.png")', 100);
+  changeFrame('url("../YANB-Game/assets/X3.png")', 200);
+  changeFrame('url("../YANB-Game/assets/X4.png")', 300); 
+  changeFrame('url("../YANB-Game/assets/X5.png")', 400);
+  changeFrame('url("../YANB-Game/assets/X6.png")', 500);
+  changeFrame('url("../YANB-Game/assets/X7.png")', 600);
+  changeFrame('url("../YANB-Game/assets/X8.png")', 700);
+  changeFrame('url("../YANB-Game/assets/X9.png")', 800);
+  changeFrame('url("../YANB-Game/assets/X10.png")', 900);
+  changeFrame('url("../YANB-Game/assets/X11.png")', 1000);
+  changeFrame('url("../YANB-Game/assets/X12.png")', 1100); 
+  changeFrame('url("../YANB-Game/assets/X7.png")', 1200);
+  changeFrame('url("../YANB-Game/assets/X6.png")', 1300);
+  changeFrame('url("../YANB-Game/assets/X5.png")', 1400);
+  changeFrame('url("../YANB-Game/assets/X4.png")', 1500);
+  changeFrame('url("../YANB-Game/assets/X3.png")', 1600);
+  changeFrame('url("../YANB-Game/assets/X2.png")', 1700);
+  changeFrame('url("../YANB-Game/assets/X1.png")', 1800);
 }
 
 function resetResults() {
