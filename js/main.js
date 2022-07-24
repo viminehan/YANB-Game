@@ -1,13 +1,15 @@
-document.getElementById('rollButton').addEventListener('click', roll);
+document.querySelector('html').addEventListener('click', roll);
 let rollCount = 0;
 
 function roll() { 
-  document.getElementById('rollResult').innerText = getRollResult();
-  updateRollCount();
+  // document.getElementById('rollResult').innerText = getRollResult();
+  // updateRollCount();
+  // runLights();
+  runSlots();
 
-  document.getElementById('TraitOutput').innerText = getRandomTrait();
-  document.getElementById('ItemOutput').innerText = getRandomItem();
-  document.getElementById('VerbOutput').innerText = getRandomVerb();
+  // document.getElementById('TraitOutput').innerText = getRandomTrait();
+  // document.getElementById('ItemOutput').innerText = getRandomItem();
+  // document.getElementById('VerbOutput').innerText = getRandomVerb();
 
 }
 
@@ -56,3 +58,9 @@ function updateRollCount () {
   console.log(rollCount)
   document.getElementById('rollCount').innerText = `Roll Number: ${rollCount}`;
 }
+
+function runSlots () { 
+ slotsArea = document.querySelector('#slotsDiv');
+ slotsArea.style.backgroundImage = "url('../assets/AnimatedSlots.gif')";
+ console.log('Running Slots...')
+};

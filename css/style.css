@@ -19,9 +19,34 @@ https://myphotoshopbrushes.com/patterns/id/3975/
 /*******************************************/
 
 html { 
+height: 100%;
+}
+
+body {
+display: flex;
+justify-content: flex-start;
+align-items: center;
+flex-direction: row;
+height: 100%;
+}
+
+.instructions { 
+  border: solid black 10px;
+  color: red;
   height: 100%;
-  background-image: url(../assets/SM1.png);
-  background-position: center;
+  width: 15%;
+}
+
+#resultsDiv { 
+  display: block;
+  float: left;
+}
+
+#slotsDiv { 
+  margin-left: 5%;
+  height: 800px;
+  width: 1300px;
+  background-image: url("../assets/X1.png");
+  background-size: contain;
   background-repeat: no-repeat;
-  background-size: cover;
-};
+}
