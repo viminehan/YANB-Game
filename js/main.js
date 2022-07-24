@@ -13,6 +13,7 @@ function roll() {
     document.getElementById('rollResult').innerText = getRollResult();
     document.getElementById('TraitOutput').innerText = getRandomTrait();
     document.getElementById('ItemOutput').innerText = getRandomItem();
+    document.getElementById('VerbOutput').innerText = getRandomVerb();
     getLightResult();
     }, 1900);
    
