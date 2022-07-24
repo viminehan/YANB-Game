@@ -17,13 +17,42 @@
 	<body>
 		<div class="instructions">
 			<h1> How to Play </h1>
-			<p> This is the game instructions </p>
+			<ol>
+				<li> The game master sets the story and the players can try to influence the scene. When a player attempts to do something, pull the lever. </li>
+				<br>
+				<li> The top bar of the machine will tell you if they succeeded and if anything else happens. Such as "YES, BUT" or "NO, AND". </li>
+				<br>
+				<li> The green lights on the right side will light up. The intensity of what happens next depends on how many lights lit up. </li>
+				<br>
+				<li> What happens next is defined by one of the three prompts that are displayed below. The game master chooses a prompt to weave into the story. </li>
+				<br> 
+				<li> Keep going until a player attempts something else, then pull again. </li>
+				<br> 
+				<li> EXAMPLE: The player wants to try to jump a gap. The machine says "YES, BUT" with three lights, meaning a very big "BUT". One of the three prompts is "Bag". So the Game Master may decide that "YES you can leap the gap, BUT you drop your BAG down the gap." </li>
+			</ol>
 		</div>
 		<div id="slotsDiv">
 		</div>
-		<div id="resultsDiv">
-			<span>  </span>
+		<div class="imageLoading">
+			<img src="assets/X1.png">
+			<img src="assets/X2.png">
+			<img src="assets/X3.png">
+			<img src="assets/X4.png">
+			<img src="assets/X5.png">
+			<img src="assets/X6.png">
+			<img src="assets/X7.png">
+			<img src="assets/X8.png">
+			<img src="assets/X9.png">
+			<img src="assets/X10.png">
+			<img src="assets/X11.png">
+			<img src="assets/X12.png">
 		</div>
+		<div id="resultsDiv">
+			<span id="rollResult"> </span>
+		</div>
+		<span id="TraitOutput" class="promptOutput"> </span>
+		<span id="ItemOutput" class="promptOutput"> </span>
+		<span id="VerbOutput" class="promptOutput"> </span>
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>

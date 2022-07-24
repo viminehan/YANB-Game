@@ -20,10 +20,11 @@ https://myphotoshopbrushes.com/patterns/id/3975/
 
 html { 
 height: 100%;
+font-family: 'Roboto', sans-serif;
 }
 
 body {
-display: flex;
+/* display: flex; */
 justify-content: flex-start;
 align-items: center;
 flex-direction: row;
@@ -31,10 +32,22 @@ height: 100%;
 }
 
 .instructions { 
-  border: solid black 10px;
-  color: red;
+  border: solid #3d251e 10px;
   height: 100%;
   width: 15%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  background-image: url('../assets/wood-9.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:white;
+  font-size: 0.95rem;
+  float: left;
+}
+
+.instructions ol { 
+  width: 80%;
 }
 
 #resultsDiv { 
@@ -49,4 +62,39 @@ height: 100%;
   background-image: url("../assets/X1.png");
   background-size: contain;
   background-repeat: no-repeat;
+  float:left;
+  margin-top: 3%;
+}
+
+.imageLoading {
+  display: none;
+}
+
+#resultsDiv { 
+  position: absolute;
+  float:left;
+  left: 48%;
+  top: 33%;
+}
+
+#rollResult {
+  font-size: 40px;
+}
+
+.promptOutput {
+  font-size: 20px;
+  position: absolute;
+  float:left;
+  top: 69.5%;
+}
+#TraitOutput { 
+  left: 27.5%;
+}
+
+#ItemOutput { 
+ left: 44%;
+}
+
+#VerbOutput { 
+  left: 60.5%;
 }
